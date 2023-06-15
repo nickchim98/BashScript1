@@ -1,7 +1,7 @@
 #!/bin/bash 
 
-
-read -p 'Welcome to the usercreamod script, this script allows you to create users and/or modify them. This script will only function properly if you have superuser privilges. Would you like to create or modify a user? [create/mod] '
+#Welcome to the usercreamod script, this script allows you to create users and/or modify them. This script will only function properly if you have superuser privilges. 
+read -p Would you like to create or modify a user? [create/mod] '
 case $REPLY in
         create)
                 read -p 'Please enter the name of the user you would like to add to the server: ' user
